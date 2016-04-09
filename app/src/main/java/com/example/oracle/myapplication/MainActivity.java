@@ -72,6 +72,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         {
             Toast.makeText(getApplicationContext()," Hello,  to  my project ya "+  name, Toast.LENGTH_LONG).show();
             Toast.makeText(getApplicationContext(), "zzzzzzzzzzzzzzzzzzzzzzzzzzzz"+name, Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "YYYYYYYYYYYYYYYYYYYYYYYYYYYY"+name, Toast.LENGTH_LONG).show();
+
 
         }
     }
