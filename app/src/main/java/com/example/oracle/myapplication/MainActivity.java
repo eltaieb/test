@@ -67,10 +67,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         String name = nameTextField.getText().toString();
         if(name == null || name.length()==0) {
-            Toast.makeText(getApplicationContext(), R.string.main_activity_enter_name_validation, Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),R.string.main_activity_enter_name_validation, Toast.LENGTH_LONG).show();
         }else
         {
-            Toast.makeText(getApplicationContext(), name, Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext()," Hello,  "+  name, Toast.LENGTH_LONG).show();
 
         }
     }
