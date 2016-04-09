@@ -70,7 +70,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             Toast.makeText(getApplicationContext(), R.string.main_activity_enter_name_validation, Toast.LENGTH_LONG).show();
         }else
         {
-            Toast.makeText(getApplicationContext(), name, Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "zzzzzzzzzzzzzzzzzzzzzzzzzzzz"+name, Toast.LENGTH_LONG).show();
 
         }
     }
